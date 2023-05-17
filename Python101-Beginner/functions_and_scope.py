@@ -51,3 +51,7 @@ print(myfunc())
 print(name)
 
 # NewName  atti
+
+#* its is always best practice to put your variable inside a argument and explicitly pass it in 
+
+# def myfunc(name):
