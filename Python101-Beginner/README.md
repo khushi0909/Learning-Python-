@@ -59,6 +59,22 @@ so ,in this case you can press ctrl+L and you  can continue further
 
             >>> ^L
             >>>
-# 3)Introduction to variables in Python
+# 3)Introduction to variables in Python(variables.py) and FOrmatting code in the Python(indentation.py)
+
+variables -its jus a little piece of memory aloocated to a named association 
+
+ncourse = "Python 101"
+python works on new lines and the indentation,it doesnt need the semicolon 
+    a) # no semicolon its fine 
+    b)it works on new lines  and indentation
+    c)#when it comes to function ,we will see ,if something == "something else":# here we dont need to worry about the curly spaces,instead we use colon : and write next lines and if we have no code inside function ,we simply write in next line as pass
+                       
+                        if something == "something else":              
+                             pass 
+ d) #after colon indent is neccessary ,else you will get error -syntax error ,but if you are declaring a variable and there before you give the indentation then also you will get the error for indentation
+ e)In conclusion ,indetation after function or condition is mandatory and indentation before var declaration will give error
+ f)whenever you want to end the code after function code etc ,you simply unindent 
+ g)Indentation is very imp in python -note it 
+ 
 
 
