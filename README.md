@@ -19,3 +19,16 @@ python -m http.server
 
 
 
+#RANDOM CHOICES 
+
+1)this gets in to using python packages 
+
+In terminal type python - you will get python shell
+then type 
+>>> import random 
+>>>random.choice(["Rock","Paper","Scissors"])          # it only takes one argument 
+
+then it will give you random item everytime you run it 
+
+
+
