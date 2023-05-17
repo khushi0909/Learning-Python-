@@ -75,6 +75,26 @@ python works on new lines and the indentation,it doesnt need the semicolon
  e)In conclusion ,indetation after function or condition is mandatory and indentation before var declaration will give error
  f)whenever you want to end the code after function code etc ,you simply unindent 
  g)Indentation is very imp in python -note it 
- 
+
+
+ # 4)Code Comment (coment.py)and Intro to python data type (data_types.py)
+
+
+a)comments are being doen by putting # sign and then followed by our message ,they are great for sharing thoughts and writing infos for ourselves and for other developers ,comments are not executable 
+b)#TODO:do a thing her (this is also a kind of comment ,to let you reming what you want to do in fututre ,if nt working then you may be needing the extension TOO tree)
+
+a-a)string = "A sentence"       # its basically a sentence inside " " or '',and this allows any form of sentence or characters that just not a number or decimal 
+b-b) integers = 99 #whole numbers 
+c-c) floats = 3.14 #whole numbers witht the decimals 
+d-d) list = ["Item1","Item2","3","5.5"]      
+e-e) tuple = ("Item 1",floats ,integers )          # its something we cant change it ,once its settled its settled 
+f-f) sets  ={"Item1","Item2","Item3"}     # they are lot like a list as well,but uses curly braces and they will not maintain their order of the listing ,so whenever we are going to access the sets in the future it may come out as item 3 first and randomlisting 
+g-g) dictionary = {
+    "key": "value",
+    "key2": "value 2",
+}
+h-h) booleans = True # or False    (it should be CAPS T and F)
+i-i) none = None 
+
 
 
