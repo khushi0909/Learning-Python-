@@ -37,7 +37,13 @@ we can create a new file through py and then write on it line by line
 
 # Reading multiple linea from a file 
 
-if soemone gives you a list of 100 emails and wanted you to find the one that has specific name in it ,how are we going to do that
+if soemone gives you a list of 100 emails and wanted you to find the one that has specific name in it ,how are we going to do that??THis islot like scrapping the data from the internet which is a very very common thing 
+
+[try seeing with example here](reading_multiple_lines.py)
+
+<!-- # Writing a File and Executing it  -->
+
+
 
 
 
