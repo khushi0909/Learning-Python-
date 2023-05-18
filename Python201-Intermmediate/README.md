@@ -63,6 +63,41 @@ The outer function is called the decorator, which takes the original function as
 
 [nested_func_scope example](nested_func_scope.py)
 
+# Making a simple API Request 
+
+We will be needing to use a package called requests
+
+    >>>python
+    >>>import requests
+
+if you see n error ,then you are good to go ,nut if you module not found error then you have to go and install it ,quit() from shell and you are going to need to have a PIP now ,you should already have pip installed on your computer
+
+    pip -V 
+you will see some things including the version 
+
+Now, if this cmd dosent work ,go and see the lesson how to install pip or google it 
+
+Now do 
+
+    pip install requests
+
+Now, you can import requests on the files 
+
+What is PIP?
+PIP is a package manager for Python packages, or modules
+
+What is a Package?
+A package contains all the files you need for a module.
+
+Modules are Python code libraries you can include in your project.
+
+[example of gow to do](simple_api_requests.py)
+
+# 
+
+
+
+
 
 
 
