@@ -93,7 +93,15 @@ Modules are Python code libraries you can include in your project.
 
 [example of gow to do](simple_api_requests.py)
 
-# 
+# Making a JSON API request 
+
+We will just get some info,we are not going to post any info or put or delete or any other API term .
+
+its same as making normal request but if data turns out to be JSON ,we need to do varname.json()
+
+and the we have accessto the data 
+
+[example of JSON API Fetching](making_json_ap_requests.py)
 
 
 
