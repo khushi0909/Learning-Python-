@@ -49,7 +49,19 @@ so it will be mergin all the experience that we have done till now with reading 
 
 [writing file and Executing examples](executable_user_files.py)
 
+#   Functions inside of functions (Nested Functions)
 
+In pyhton everything is called an object and that means fucntions and sort of functions are objects,files are objects,packages are objects.Everythign is an object 
+
+we will the see the scope and how it affects the functions inside of functions.
+
+Here comes the term decorator .
+
+In Python, a decorator is a design pattern that allows you to modify the functionality of a function by wrapping it in another function.
+
+The outer function is called the decorator, which takes the original function as an argument and returns a modified version of it.
+
+[nested_func_scope example](nested_func_scope.py)
 
 
 
