@@ -41,7 +41,18 @@ if soemone gives you a list of 100 emails and wanted you to find the one that ha
 
 [try seeing with example here](reading_multiple_lines.py)
 
-<!-- # Writing a File and Executing it  -->
+# Writing a File and Executing it 
+
+Idea here is that you can ask a user for some form of input and then you can create a file out of that and with that file you can add some content in there as well
+
+so it will be mergin all the experience that we have done till now with reading and writing and appending files in to a program,where you can basically create your own form of the catalaouge or contact book or a addrress book 
+
+[writing file and Executing examples](executable_user_files.py)
+
+
+
+
+
 
 
 
