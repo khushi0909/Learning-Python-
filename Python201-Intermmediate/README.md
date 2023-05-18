@@ -35,5 +35,9 @@ we can create a new file through py and then write on it line by line
 
 [file to see how ,for creating and writing in the file](writing_files.py)
 
-# 
+# Reading multiple linea from a file 
+
+if soemone gives you a list of 100 emails and wanted you to find the one that has specific name in it ,how are we going to do that
+
+
 
