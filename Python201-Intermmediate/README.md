@@ -1,6 +1,10 @@
+# WELCOME TO PYTHON 201 !!!!
+
 # INOperator :
 
 In Python, the in operator determines whether a given value is a constituent element of a sequence such as a string, array, list, or tuple. When used in a condition, the statement returns a Boolean result of True or False. The statement returns True if the specified value is found within the sequence
+
+[python file for IN Operator](INOperator.py)
 
 # NOT Operator :
 
@@ -13,3 +17,14 @@ True	False
 False	True
 not is a unary operator which means it takes only one input value. It can be used with any boolean expression or Python object.
 
+[Python file for NOT Operator](NOTOperator.py)
+# How to read files with Python 
+
+we open files in a python with something called as a context manager .it is memory performant way .
+
+syntax is:
+
+     with open('filename','r') as file:          /// r stand for read 
+     print(file.read())
+
+[file try for reading and more info](reading_files.py)
