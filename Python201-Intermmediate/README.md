@@ -28,3 +28,12 @@ syntax is:
      print(file.read())
 
 [file try for reading and more info](reading_files.py)
+
+# How to create files and writing with python 
+
+we can create a new file through py and then write on it line by line 
+
+[file to see how ,for creating and writing in the file](writing_files.py)
+
+# 
+
