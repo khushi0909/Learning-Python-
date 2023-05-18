@@ -103,6 +103,17 @@ and the we have accessto the data
 
 [example of JSON API Fetching](making_json_ap_requests.py)
 
+# Reading JSON and editing JSON 
+
+last time our data came back as json or dictionary  and was fine and workable ,what if it comes back as a string ,and format that is not a dictionary ,so to get data you cannot do simply person['name] ,it will give error as indices must be integers and thats because its trying to slice other data types such as strings ,so it doent have a property or key called name 
+
+so we need to convert that and it could be done with json library 
+
+        import json
+
+[example can be seen and executed](reading_json.py)
+
+
 
 
 
