@@ -189,7 +189,85 @@ We can create dictionaries using simple expressions. A dictionary comprehension 
 [example and info of list and dict comprehension and how to get dict values](list_n_dict_compre_n_dicvalueget.py)
 
 
-#
+# Setting up the virtual environments (macOS,Windows and Linux )
+
+Virtual environment is a way to compartmentalize pakages 
+suppose i can say 
+
+        pip show Django
+
+so it will show the version suppose 2.2.13  and where the file is and thats the version on my computer ,
+Now, what if  I have a project thats using a different version of Django 3.1 and to make it little bit complicated what if , if i have 5 different  websites using Django ,but they all are using different Django packages 
+
+Currently then what i have to do in this scenarios is 
+
+            pip uninstall Django && pip install Django==3.1
+I have to do this over and over again ..
+
+What if you have a project lets say Django website again ,where you want to share this with everyone else in your company and you want them to use Django as well ??
+
+Well instead of packaging Django and shipping with your website and sending it to everyone , you can just tell them to pip install django and use the certain version
+
+And we do this and we separate these different versions or we separate these different environments or these projects using a virtual environment 
+
+this is very common in the python world
+
+# ## steps to get in to virttual environment :-
+
+Windows 
+    
+        ls-la or DIR 
+usually you are going to see folder called .venv or venv or env,Here we dont have so we will create one as 
+
+    python -m venv .venv
+
+a pop will come,click yes 
+you can see ,you have got .venv folder with few file
+
+and virtual env is created 
+
+Now HOW TO GET INTO THAT VIRTUAL ENVIRONMENT CREATED 
+
+windows
+
+        .venv/Scripts/activate.bat                  or /env/Scripts/actiate.bat
+MAC/Linux
+            
+             source .venv/bin/activate
+
+(venv) PS C:\......                    (now you can see something like this means it is activated )
+
+some links for resolving ,if you get in to issue :**
+**
+https://linuxhint.com/activate-virtualenv-windows/
+
+https://stackoverflow.com/questions/8921188/issue-with-virtualenv-cannot-activate
+
+
+now if you type 
+         
+         pip show Django
+it will say not found as it is not installed in the virtual env and you have to install it 
+
+        pip install Django 
+
+and if again pip show Django it works and shows the version and location of virtual environment 
+
+DEACTIVATING TO GET OUT OF VIRTUAL ENVIRONMENT 
+
+                deactivate
+
+
+CONCLUSION---> In this way you can have different versions of Django for Different projects and in different environments
+                If you have multiple projects on the go ,its really really easy to just upgrade the one project and not have to worryabout upgrading another project .
+
+
+
+
+
+
+
+
 
 
 
