@@ -99,3 +99,31 @@ there are two ways to call decorator or do things ,check example
 Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.
 
 [example and more imp infos](generators.py)
+
+# USING PIPENV FOR A VIRTUAL ENVIRONMENT
+
+previously we did with pythom -m venv .venv ...... cmd 
+
+but there is another way to do it i.e ## pipiens
+
+    pip install pipenv
+
+    pipenv
+
+it will give list of cmd ,this is easier method 
+
+    pipenv install
+
+    pipenv shell
+
+now you are inside virtual env becoz it has () OR SOMETHING
+
+    python _V
+
+    hit  Ctrl + D (to logout)
+
+To get rid of pipenv
+
+    pipenv --rm
+
+
