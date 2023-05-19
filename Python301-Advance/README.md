@@ -65,4 +65,31 @@ Even if a statement or expression is syntactically correct, it may cause an erro
 There are different type of exceptions built in 
 
 https://docs.python.org/3/library/exceptions.html#bltin-exceptions
+
 [info and example](error_exception.py)
+
+# PYTHON DECORATORS 
+
+simply a fucn that wraps around other functon 
+
+Now, why would we ever do this?
+
+Well, because sometimes we have a function and we simply like what it's doing and we just simply want
+
+to add a little extra logic to it, a little extra functionality.
+
+And so we don't necessarily always want to change our original function, but maybe we do want to take
+
+that original function and extend it.
+
+So it's a lot like class inheritance where we took a regular class and we inherited it into a new class
+
+or extended it into a new class.
+
+This is taking a function and extending it with my decorator.
+
+Now, this is a very, very, very simple decorator, but it gets the example across.
+
+
+there are two ways to call decorator or do things ,check example
+[info and example](decorators.py)
