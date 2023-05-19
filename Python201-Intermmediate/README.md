@@ -113,10 +113,33 @@ so we need to convert that and it could be done with json library
 
 [example can be seen and executed](reading_json.py)
 
+# Function *args and **kwargs
 
+Nice thing is you can pass in here an unlimited number of arguments and it will just work 
 
+1) The special syntax *args in function definitions in Python is used to pass a variable number of arguments to a function
 
+2) What *args allows you to do is take in more arguments than the number of formal arguments that you previously defined. With *args, any number of extra arguments can be tacked on to your current formal parameters (including zero extra arguments).
 
+3) For example, we want to make a multiply function that takes any number of arguments and is able to multiply them all together. It can be done using *args.
+
+4) Using the *, the variable that we associate with the * becomes iterable meaning you can do things like iterate over it, run some higher-order functions such as map and filter, etc.
+
+5) IMP: it always comes back as tuple data type 
+
+<---------------KWARGS------------>
+
+1) kwargs are with two ** and always comes back as a dictionary datatype because keyword looks something like thing:'something'
+
+2)  **kwargs in function definitions in Python is used to pass a keyworded, variable-length argument list
+
+3)We use the name kwargs with the double star. The reason is that the double star allows us to pass through keyword arguments (and any number of them).
+
+4) A keyword argument is where you provide a name to the variable as you pass it into the function.
+
+5) One can think of the kwargs as being a dictionary that maps each keyword to the value that we pass alongside it. That is why when we iterate over the kwargs there doesn’t seem to be any order in which they were printed out.
+
+[example of *args and **kwargs as follows](func_args_kwargs.py)
 
 
 
