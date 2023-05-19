@@ -142,6 +142,59 @@ Nice thing is you can pass in here an unlimited number of arguments and it will 
 [example of *args and **kwargs as follows](func_args_kwargs.py)
 
 
+# How To Install PIP 
+
+PIP is sed to install packages as -
+
+    pip install package_name 
+
+ex-if you dont have requests installed ,you can do PIP install requests
+
+you want to download this file to computer ,on terminal 
+
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+then this will download and by typing ls -la or dir you can check if it has file called get.pip ,becoz thats what we wwant and then in terminal type 
+
+        python get-pip.py
+
+Now, tocheck the pip version you can type 
+
+        pip -V
+
+
+# Mutable vs immutable variables (changeable vs unchangable) and Enumeration
+List is mutable 
+Tuple is immutable 
+String is immutable 
+
+<--Enumeration-->
+
+it just give some index value 
+
+ [Info and Example of Mutable and Immutable and Enumerations](mutable_Imutable_var_enumeration.py)
+
+ # List Comprehension and Dictionary Comprehension and How to get the dictionary values(with defaults)
+
+-------------List Comprehension---------------
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+
+<-----------------Dictionary Comprehension----------->
+
+We can create dictionaries using simple expressions. A dictionary comprehension takes the form {key: value for (key, value) in iterable}
+
+<--------How to get a Dictionary value --------->
+
+[example and info of list and dict comprehension and how to get dict values](list_n_dict_compre_n_dicvalueget.py)
+
+
+#
+
+
+
+
+
 
 
 
