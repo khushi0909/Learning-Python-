@@ -44,3 +44,16 @@ print(d)
 
 d = dict(names)
 print(d)
+
+#^ getting dictionar values 
+
+courses = {
+    "js": "JavaScript 101",
+    "python": ["Python 101", "Python 201"],
+    "html": "HTML 101"
+}
+
+# suppose yo want js value here ,we can do courses["js"],but its sort of painful
+
+
+
