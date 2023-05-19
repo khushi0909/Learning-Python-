@@ -50,4 +50,10 @@ an interface acts as a blueprint for designing classes. Like classes, interfaces
 
  [More Info and examples of Inheritance,Interface ans SuperMethod](class_inheritance_n_Supermethod_n_interface.py)
 
- #
+ # DUNDER METHODS 
+
+ dunder = double underscore 
+ These are the magic method that comes with the class 
+ methods with _INIT_ are initiated first in order for parent and inheritated class .
+
+[info and example](dunder_method.py)
