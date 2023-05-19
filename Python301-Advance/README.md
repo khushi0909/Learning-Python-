@@ -93,3 +93,9 @@ Now, this is a very, very, very simple decorator, but it gets the example across
 
 there are two ways to call decorator or do things ,check example
 [info and example](decorators.py)
+
+# PYTHON GENERATORS 
+
+Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.
+
+[example and more imp infos](generators.py)
