@@ -57,3 +57,12 @@ an interface acts as a blueprint for designing classes. Like classes, interfaces
  methods with _INIT_ are initiated first in order for parent and inheritated class .
 
 [info and example](dunder_method.py)
+
+# Error Exception ans Catching Exception
+
+Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. Errors detected during execution are called exceptions and are not unconditionally fatal
+
+There are different type of exceptions built in 
+
+https://docs.python.org/3/library/exceptions.html#bltin-exceptions
+[info and example](error_exception.py)
